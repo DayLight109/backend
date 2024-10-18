@@ -1,0 +1,12 @@
+fixtures:
+  base: "/root/fabric-firstnet"
+  toUser: "crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com"
+  signCert: "msp/signcerts/Admin@org1.example.com-cert.pem"
+  priKey: "msp/keystore/fe29f4ed3eff85a86dc55c01e9bf554698d2b9aba970b15d3e48784a3ee298f7_sk"
+
+label: "Admin@org1.example.com"
+ccpPath: "./connect-conf/connection-org1.yaml"
+channel: "businesschannel"
+cc: "cddd"
+
+walletPath: "./wallet"
