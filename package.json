@@ -1,0 +1,43 @@
+{
+  "name": "unioncom-backend",
+  "version": "1.0.0",
+  "description": "It is the backend production project of unioncom.",
+  "main": "app.js",
+  "scripts": {
+    "test": "egg-bin test",
+    "lint": "eslint .",
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start",
+    "stop": "egg-scripts stop"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "download": "^7.1.0",
+    "egg": "^2.20.1",
+    "egg-cors": "^2.2.0",
+    "egg-jwt": "^3.1.6",
+    "egg-mock": "^4.1.0",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.11.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-validate": "^2.0.2",
+    "ethereumjs-util": "^6.1.0",
+    "fabric-network": "~1.4.8",
+    "grpc": "^1.24.11",
+    "md5-file": "^4.0.0",
+    "mysql2": "^2.2.5",
+    "mz": "^2.7.0",
+    "mz-modules": "^2.1.0",
+    "pkcs11js": "^1.2.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "acorn": "^8.12.1",
+    "egg-bin": "^4.11.1",
+    "eslint": "^5.15.3",
+    "eslint-config-egg": "^7.2.0",
+    "mocha": "^5.2.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
